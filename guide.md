@@ -69,7 +69,7 @@ Here are some useful shortcuts to streamline your Scratchbox experience:
 
 Scratchbox offers multiple themes for customization. To change your theme:
 1. Go to `[Settings] > [Theme]`.
-2. Select your desired theme from the options.
+2. Each click will shuffle to the next theme.
 
 If you want to apply a theme using a local storage key:
 1. Navigate to `[Settings] > [Advanced Settings] > [Set Local Storage Key Value]`.
