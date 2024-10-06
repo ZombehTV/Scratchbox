@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scratchbox User Guide</title>
+  <style>
+    body {
+      background: #d7d2cc; /* Light gradient background */
+      font-family: 'Arial', sans-serif;
+      padding: 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #f4f4f4;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+      background-image: linear-gradient(145deg, #f4f4f4 0%, #e0e0e0 100%);
+      border: 1px solid #ccc;
+    }
+    h1, h2, h3 {
+      font-family: 'Georgia', serif;
+      color: #333;
+      text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+    }
+    h1 {
+      text-align: center;
+      padding: 10px;
+      border-bottom: 2px solid #ccc;
+    }
+    p, li {
+      line-height: 1.6;
+      color: #555;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    ul li {
+      background: #fff;
+      padding: 10px;
+      margin-bottom: 5px;
+      border-radius: 10px;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+      background-image: linear-gradient(145deg, #ffffff 0%, #e9e9e9 100%);
+      border: 1px solid #ccc;
+    }
+    a {
+      text-decoration: none;
+      color: #0066cc;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    code {
+      background: #efefef;
+      padding: 2px 5px;
+      border-radius: 5px;
+      box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.1);
+    }
+    .button {
+      display: inline-block;
+      padding: 10px 15px;
+      margin-top: 10px;
+      background: #007bff;
+      color: #fff;
+      border-radius: 8px;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+      box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .button:hover {
+      background: #0056b3;
+    }
+    hr {
+      border: none;
+      height: 1px;
+      background: #ccc;
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Scratchbox User Guide</h1>
+  <p>Welcome to Scratchbox! This guide will walk you through the key features, shortcuts, and settings you need to navigate and get the most out of Scratchbox.</p>
+
+  <h2>Table of Contents</h2>
+  <ul>
+    <li><a href="#initial-setup">Initial Setup</a></li>
+    <li><a href="#playing-games">Playing Games</a></li>
+    <li><a href="#local-storage">Local Storage</a></li>
+    <li><a href="#shortcuts">Shortcuts</a></li>
+    <li><a href="#themes">Themes</a></li>
+    <li><a href="#advanced-settings">Advanced Settings</a></li>
+    <li><a href="#web-browser">Web Browser</a></li>
+    <li><a href="#help-info">Help/Info</a></li>
+    <li><a href="#chatroom">Chatroom</a></li>
+  </ul>
+
+  <hr>
+
+  <h2 id="initial-setup">Initial Setup</h2>
+  <p>Before customizing Scratchbox, ensure that you have set your username. If your username is not set, your selected theme will <strong>always</strong> default to "Bokeh." Here's how to set your username:</p>
+  <ol>
+    <li>Navigate to <code>[Settings] > [Change Username]</code>.</li>
+    <li>Enter your desired username. This username will also display when playing games on Scratchbox.</li>
+  </ol>
+
+  <h2 id="playing-games">Playing Games</h2>
+  <h3 id="featured-games">Featured Games</h3>
+  <p>Scratchbox offers three featured games to get you started. You can find these in the <code>[Games]</code> menu.</p>
+
+  <h3 id="loading-games-from-the-store">Loading Games from the Store</h3>
+  <p>If you'd like to explore more games:</p>
+  <ol>
+    <li>Click on the store icon.</li>
+    <li>Browse the store and find a game you want to play.</li>
+    <li>Copy the download code for the game.</li>
+    <li>Go to <code>[Games] > [Load Another Game]</code>, paste in the download code, and your game will load.</li>
+  </ol>
+  <p><strong>Note:</strong> You will need an internet connection to use this feature.</p>
+
+  <h3 id="offline-games">Offline Games</h3>
+  <p>To download games for offline play:</p>
+  <ol>
+    <li>Navigate to <code>[Games] > [Download Offline]</code>.</li>
+    <li>Input the download code and give the game a recognizable name. It will download as a <code>.sb3</code> file.</li>
+  </ol>
+  <p>To load an offline game:</p>
+  <ol>
+    <li>Go to <code>[Settings] > [Load Offline Game]</code>.</li>
+    <li>Drag and drop the <code>.sb3</code> file into the window, and the game will load.</li>
+  </ol>
+
+  <h2 id="local-storage">Local Storage</h2>
+  <p>Scratchbox uses local storage to save your data between sessions. If you encounter any issues, you can clear your local storage in two ways:</p>
+  <ul>
+    <li><strong>Non-Essential Local Storage Clear:</strong> This option clears all local storage except your username and theme. It resets settings such as Scratchbox FPS, fallback game resolution, and fallback game FPS. To do this, go to <code>[Settings] > [Clear Local Storage]</code>.</li>
+    <li><strong>Factory Reset:</strong> For a complete reset, hold down <code>Shift + X + F</code> to perform a factory refresh. Scratchbox will restart and all local storage will be cleared.</li>
+  </ul>
+
+  <h2 id="shortcuts">Shortcuts</h2>
+  <p>Here are some useful shortcuts to streamline your Scratchbox experience:</p>
+  <ul>
+    <li><strong>Restart Scratchbox:</strong> <code>Shift + X + R</code></li>
+    <li><strong>Toggle FPS:</strong> <code>Shift + F</code></li>
+  </ul>
+
+  <h2 id="themes">Themes</h2>
+  <p>Scratchbox offers multiple themes for customization. To change your theme:</p>
+  <ol>
+    <li>Go to <code>[Settings] > [Theme]</code>.</li>
+    <li>Each click will shuffle to the next theme.</li>
+  </ol>
+
+  <h2 id="advanced-settings">Advanced Settings</h2>
+  <p>In the <code>[Settings] > [Advanced Settings]</code> menu, you can modify several key performance settings:</p>
+  <ul>
+    <li><strong>Scratchbox FPS:</strong> Changes the FPS for Scratchbox's UI.</li>
+    <li><strong>Fallback Game FPS:</strong> Sets the FPS for games that don't have pre-set values. Adjust this if a game has issues at the default 60 FPS.</li>
+    <li><strong>Resolution:</strong> Change the resolution for games with varying native resolutions.</li>
+  </ul>
+
+  <h2 id="web-browser">Web Browser</h2>
+  <p>Scratchbox includes a web browser for your convenience. To use it:</p>
+  <ol>
+    <li>Click on the browser icon.</li>
+    <li>Press <code>Space + L</code> to enter a URL.</li>
+    <li>To exit back to the home screen, press <code>Space + X</code>.</li>
+  </ol>
+
+  <h2 id="help-info">Help/Info</h2>
+  <p>Scratchbox has a built-in help/info app. Simply click on it to revisit this guide whenever you need help.</p>
+
+  <h2 id="chatroom">Chatroom</h2>
+  <p>Scratchbox includes a public chat room powered by Chattable. To set your username to match your Scratchbox username:</p>
+  <ol>
+    <li>Click the cog icon in the chat room's top right corner.</li>
+    <li>Enter your username.</li>
+  </ol>
+  <p>To keep the username permanently, you must register a Chattable account.</p>
+
+  <hr>
+
+  <p>Enjoy using Scratchbox!</p>
+</div>
+
+</body>
+</html>
